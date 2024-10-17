@@ -4,8 +4,8 @@ import { BsLinkedin, BsFacebook, BsInstagram, BsGithub } from 'react-icons/bs';
 const Footer = () => {
   return (
     <>
-      <footer className='bg-slate-50 text-black py-6'>
-        <div className='container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 '>
+      <footer className='bg-slate-50 text-black py-6 mt-6 px-6'>
+        <div className='container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 px-6'>
           
           {/* Brand Section */}
           <div>

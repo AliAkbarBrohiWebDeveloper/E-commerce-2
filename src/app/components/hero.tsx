@@ -81,7 +81,7 @@ const Hero = () => {
     
 </div>
 <div className='flex justify-center mt-9'>
-<button className='py-2 px-6 rounded-lg  hover:scale-105 duration-300 bg-teal-500 '>View All</button>
+<button className='py-3 px-7 rounded-lg  hover:scale-105 duration-300 bg-black text-white '>View All</button>
 </div>
 <br />
 <hr />
@@ -123,7 +123,7 @@ const Hero = () => {
 
 
 <div className='flex justify-center mt-9'>
-    <button className='  py-2 px-6 rounded-lg  mx-3 hover:scale-105 duration-300 bg-teal-500'>View All</button>
+    <button className=' py-3 px-7 rounded-lg bg-gray-950 shadow-lg font-medium text-white hover:scale-105 duration-300'>View All</button>
 </div>
 <br />
 <br />
@@ -151,17 +151,17 @@ const Hero = () => {
 </div>
 <div className='flex justify-evenly items-center gap-9 flex-col md:flex-row'>
 
-    <div className='mx-6 mt-6 border-8 rounded-2xl my-6 hover:border-red-500'>
+    <div className='mx-6 mt-6 border-8 rounded-2xl my-6 hover:scale-105 duration-300'>
 <h1 className='font-bold'>Sarah.M</h1>
 <p>I am blown away by the quaility and style of the clothes I recieved from shop.co.from causal weay to elegant dresses ,every piece I have bought has excedded my expectations.</p>
 
     </div>
-    <div className='my-5 border-8 rounded-2xl hover:border-red-500 hidden sm:block'>
+    <div className='my-5 border-8 rounded-2xl hover:scale-105 duration-300-red-500 hidden sm:block'>
 <h1 className='font-bold'>Alex k.</h1>
 <p>Finding clothes that align with my  personal style used to be a challenge unatil I discovered shop.co. the range of options they offer is truly remarable.</p>
 
     </div>
-    <div className='mt-4 border-8 rounded-2xl my-6 hover:border-red-500 hidden sm:block'>
+    <div className='mt-4 border-8 rounded-2xl my-6 hidden  hover:scale-105 duration-300 sm:block'>
         <h3 className='font-bold'>James L.</h3>
         <p>As somone who always lookout for unique fashion pieces.I am thrilled to have stumbled shop.co. The selection of clothes only is not diverse but on-point with latest trends</p>
     </div>
