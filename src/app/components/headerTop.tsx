@@ -5,7 +5,7 @@ import React from 'react'
 
 const HeaderTop = () => {
   return (
-    <header className='flex justify-center bg-black text-white h-9 '>
+    <header className='flex justify-center bg-black text-white h-9 sticky top-0  '>
 
 <p>Sign up and get 20% off to your first order  Sign up Now 
   

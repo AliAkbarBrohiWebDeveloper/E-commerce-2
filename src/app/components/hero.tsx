@@ -167,23 +167,33 @@ const Hero = () => {
     </div>
 </div>
 
-<div className='bg-black text-white mx-6 my-6 h-[150px]  rounded-2xl' >
-    <section className='flex gap-[700px] items-center flex-col  md:flex-row'>
-<div className='mt-7 mx-6 font-extrabold'>
-<h4>STAY UPTO DATE ABOUT</h4>
-<h5>OUR LATEST OFFERS</h5>
 
+<div className='bg-black text-white mx-6 my-6 h-[150px] rounded-2xl'>
+  <section className='flex flex-col md:flex-row items-center justify-between p-6'>
+    
+    {/* Text Section */}
+    <div className='mt-4 md:mt-0 font-extrabold text-center md:text-left'>
+      <h4>STAY UP TO DATE ABOUT</h4>
+      <h5>OUR LATEST OFFERS</h5>
+    </div>
+
+    {/* Input and Button Section */}
+    <div className='mt-4 w-full md:w-auto flex flex-col items-center md:items-start'>
+      <input 
+        type="email" 
+        placeholder='Enter your email address' 
+        className='w-full md:w-[300px] h-9 rounded-2xl px-3' 
+      />
+      <button className='bg-white mt-3 text-black w-full md:w-[300px] h-9 rounded-2xl'>
+        Subscribe to newsletter
+      </button>
+    </div>
+    
+  </section>
 </div>
-<div>
-<input type="email" placeholder='Enter your email address ' className='mt-4 w-[300px] h-9 rounded-2xl' />
-<br />
 
-<button className='bg-white mt-3 text-black w-[300px] h-9 rounded-2xl'>Subscribe to news letter</button>
 
-</div>
 
-</section>
-</div>
 
 
         </>
