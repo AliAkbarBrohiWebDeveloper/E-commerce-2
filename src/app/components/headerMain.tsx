@@ -1,5 +1,5 @@
 import React from 'react'
-import { BiSearch,BiCart,BiUser } from 'react-icons/bi'
+import { BiCart,BiUser } from 'react-icons/bi'
 
 
 const HeaderMain = () => {
